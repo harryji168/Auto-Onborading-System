@@ -1,3 +1,5 @@
+Final Project 
+
 I have extensive experience working as a one-stop creative web solution provider in Canada. I earned a series of professional designations including a Bachelor's Degree in Information Technology and Microsoft Certificates as a Solution Developer, Database Administrator, and Systems Engineer + Internet. I also have experience in database administration, system and internet engineering.
 I intend to apply cutting-edge technology in real life to help businesses increase competitiveness. This year, I was honoured to enroll in CodeCore College's Development Bootcamp to further enhance my skills. The inspiration for my project came from working with CodeCore College as the institution supported my development. I hope my work can help others with achieving their goals and dreams as well. 
 
