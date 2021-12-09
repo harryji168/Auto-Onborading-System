@@ -1,3 +1,21 @@
+
+My name is Harry, when I first started at CodeCore, I saw the “I have a dream” poster at CodeCore that inspired me, so I started thinking about that idea when working on my project.
+
+My project call Auto Onboarding System that is an in-depth training system designed to help people become web developers easier, there have three parts.
+
+Part 1: Job Assistance: Summarizes postings from job search engines, this will help guide people in the right direction to apply to positions on time.e.
+
+Part 2: ESL Support: An Intelligent AI live chat assistant with bilingual voice support to help ESL students enter our college.
+
+
+Part 3: Auto Coding System: This uses an automated system to control Git and VSS code to write and run code.
+
+
+ I made this video to summarize my project, which is also called "I have a dream". It just so happens that tomorrow, Dec 10th is the Human Rights day. "I have a dream" originated from  Human Rights leader Martin Luther King Jr. Let's not forget that a lot of people continue their struggle for rights and economic opportunity. "Speak up, say what you need to say", let us start the video. enjoy it
+ 
+ 
+
+
 I have extensive experience working as a one-stop creative web solution provider in Canada. I earned a series of professional designations including a Bachelor's Degree in Information Technology and Microsoft Certificates as a Solution Developer, Database Administrator, and Systems Engineer + Internet. I also have experience in database administration, system and internet engineering.
 I intend to apply cutting-edge technology in real life to help businesses increase competitiveness. This year, I was honoured to enroll in CodeCore College's Development Bootcamp to further enhance my skills. The inspiration for my project came from working with CodeCore College as the institution supported my development. I hope my work can help others with achieving their goals and dreams as well. 
 
