@@ -1,5 +1,5 @@
 
-My name is Harry, when I first started at CodeCore, I saw the “I have a dream” poster at CodeCore that inspired me, so I started thinking about that idea when working on my project.
+My name is Harry, when I first started at CodeCore, I saw the “I have a dream” poster at CodeCore that inspired me, so I started thinking about working on my project from early on in the Bootcamp about that idea.
 
 My project call Auto Onboarding System that is an in-depth training system designed to help people become web developers easier, there have three parts.
 
