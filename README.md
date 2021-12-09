@@ -3,7 +3,7 @@ My name is Harry, when I first started at CodeCore, I saw the â€œI have a dreamâ
 
 My project call Auto Onboarding System that is an in-depth training system designed to help people become web developers easier, there have three parts.
 
-Part 1: Job Assistance: Summarizes postings from job search engines, this will help guide people in the right direction to apply to positions on time.e.
+Part 1: Job Assistance: Summarizes postings from job search engines, this will help guide people in the right direction to apply to positions on time.
 
 Part 2: ESL Support: An Intelligent AI live chat assistant with bilingual voice support to help ESL students enter our college.
 
