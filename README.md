@@ -95,3 +95,8 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 
 ### Chart
 ![chart](https://user-images.githubusercontent.com/21187699/145526590-340a5ff8-9f24-438c-8d70-a9e4ad78f5ce.gif)
+
+
+### the end
+![theend](https://user-images.githubusercontent.com/21187699/145528432-31651708-ec5f-4c68-80b3-d3b141e1e2fc.gif)
+
