@@ -1,0 +1,45 @@
+{
+  "name": "auto_onborading",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start_electron": "electron .",
+    "start_nodemon": "nodemon index.js",
+    "init": "npm init",
+    "install": "npm i ejs express knex method-override pg",
+    "install-d": "npm i -D concurrently faker http-server morgan nodemon",
+    "dbcreate": "createdb --echo Cluckr",
+    "migrate_create": "npx knex migrate:make clucks",
+    "migrate": "npx knex migrate:latest",
+    "migrate_trending": "npx knex migrate:make trending",
+    "seed_create": "npx knex seed:make clucks",
+    "seed": "npx knex seed:run",
+    "demo_image": "concurrently \"npm start\" \"xdg-open http://localhost:5858/clucks/demo/0 \"",
+    "backup": "pg_dump -U harry -F c -b -v -f \"db/seeds/demo_data_backup\" Cluckr",
+    "restore": "pg_restore -U harry Cluckr -v \"db/seeds/demo_data_backup\""
+
+
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "@rails/actioncable": "^6.1.3",
+    "@rails/activestorage": "^6.1.3",
+    "@rails/ujs": "^6.1.3",
+    "@rails/webpacker": "^3.6.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "linkedin-jobs-scraper": "^8.0.0",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.7.1",
+    "sharp": "^0.29.2",
+    "sound-play": "^1.1.0",
+    "turbo": "^0.3.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "webpack-dev-server": "^4.4.0"
+  }
+}

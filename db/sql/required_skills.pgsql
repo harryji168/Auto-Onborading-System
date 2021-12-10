@@ -1,0 +1,1 @@
+SELECT count(id) from jobs where  check_count is null and required_skills is null   ;

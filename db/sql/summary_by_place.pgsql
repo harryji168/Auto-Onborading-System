@@ -1,0 +1,1 @@
+SELECT place, count(id) from jobs group by place ORDER by  count(id) desc ;

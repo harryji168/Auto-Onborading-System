@@ -1,0 +1,13 @@
+<% @jobs.each do |job|%>
+    <p><%= link_to(job.linked_id, job_path(job.id)) %></p>
+    <h2><%= job.title %></h2>
+    <p><%= job.date %></p>
+    <p><%= job.company %></p>
+    <p><%= job.place %></p>
+    <p><%= job.senoritylevel %></p>
+    <p><%= job.function %></p>
+    <p><%= job.employmenttype %></p>
+    <p><%= job.industries %></p>
+    <p><%= job.salary %></p>
+    <p><%= job.required_skills %></p>
+<%end%>

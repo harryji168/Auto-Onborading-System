@@ -1,0 +1,2 @@
+class JobsPlaceSum < ApplicationRecord 
+end

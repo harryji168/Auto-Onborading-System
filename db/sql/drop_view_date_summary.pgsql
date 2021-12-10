@@ -1,0 +1,1 @@
+Drop VIEW jobs_day_sum

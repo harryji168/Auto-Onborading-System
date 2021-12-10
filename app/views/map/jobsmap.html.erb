@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= DateTime.now.strftime("%F") %> Jobs </title>
+         <script type="text/javascript" >
+         var maptimes =
+         {
+         "type": "FeatureCollection",
+         "features": [
+               <% @places.each do |place|
+                 @geo=Geo.where("place='"+place.place+"'") 
+                 if @geo.first then 
+                  @geo_array=@geo.first['latlng'].split(',') 
+                  @lat=@geo_array[1].to_f
+                  @lin=@geo_array[0].to_f
+                 
+
+                  if( @lat>-123.443 and  @lat<-122.402 and  @lin>49.046 and @lin<49.370 ) then
+
+                    @place=place.place.sub('Canada',"")
+                    @place=@place.sub('British Columbia',"")
+                    @place=@place.sub(',',"")
+                    @place=@place.sub(',',"")
+                     
+                    @today=Job.where("place='"+place.place+"' and date='"+DateTime.now.strftime("%F")+"'").count 
+                    @current_today=DateTime.now.strftime("%F")
+
+                  %>
+                 {
+                      "type": "Feature",
+                       "properties": {
+                         "name": "<h3><%= @place %></h3>Jobs: <%= place.count.to_s%><br><font color=red><b><a target=_blank href='api/v1/jobsdaysum?date=<%= @current_today %>'><%= @today>0?"Today: "+@today.to_s+"":"" %></a></b></font>"
+                       },
+                     "geometry": {
+                       "type": "Point",
+                       "coordinates": [
+                         <%= @geo_array[1] %>,
+                         <%= @geo_array[0] %>
+                       ]
+                     }        
+                 },
+               <% 
+                end
+               end
+             end %>
+               
+             ]
+         }
+         </script>
+ <script src="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.js"></script>
+       <link rel="stylesheet" href="https://d19vzq90twjlae.cloudfront.net/leaflet-0.7.3/leaflet.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="http://leaflet.cloudmade.com/dist/leaflet.ie.css" /><![endif]-->
+
+        <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.3"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>       
+        <style>
+            #map {
+    width: 100%;
+    height: 780px;
+    margin: 0px ;
+
+    }
+
+.header {
+    margin: auto auto auto auto;
+    width: 100%;
+    text-align:center;
+    }
+p{
+    margin:0px 0px auto 0px;
+        }        
+        </style>
+
+    </head>
+    <body onload="initialize()">
+        <b><%=DateTime.now.strftime("%F") %></b> Total Job: <%= Job.count %> <font color=red>Today Jobs: <%= Job.where("date='"+DateTime.now.strftime("%F")+"'").count %></font> waiting for check: <%=@jobswaitforcheck %> HTML:<%= @htmlcount %> nodejs:<%= @nodecount %> react:<%= @reactcount %> ruby:<%= @railscount %>  PHP:<%= @phpcount %>   Vue:<%= @vuecount %>  Java:<%= @javacount %>
+        <div id="map" ></div>           
+        <script type="text/javascript">
+            function initialize() {
+                //var layers = ["terrain", "watercolor","toner"];
+                    var watercolor = new  L.StamenTileLayer("watercolor");
+                    var terrain = new L.StamenTileLayer("terrain");
+                    var toner= new  L.StamenTileLayer("toner");
+
+                    var bases = {
+                        "Watercolor":watercolor,
+                        "Terrain":terrain,
+                        "Toner":toner
+                    }
+
+                    L.Map = L.Map.extend({
+                                         openPopup: function(popup) {
+                                           //      this.closePopup();  // just comment this
+                                         this._popup = popup;
+
+                                         return this.addLayer(popup).fire('popupopen', {
+                                                                          popup: this._popup
+                                                                          });
+                                         }
+                                         }); /***  end of hack ***/
+
+
+                    var map = new L.Map('map', {
+                                        center: [49.2221801,-122.9216788],
+                                        zoom:11,
+                                        layers:terrain
+                                        })
+ 
+
+                    var popmaps = function(feature,layer){
+                        var popUp = feature.properties.name
+                        layer.bindPopup(String(popUp));
+                        
+                    }
+
+                 
+
+                     L.geoJson(maptimes, {
+                               pointToLayer:function (feature, latlng) {
+                                maker = L.marker(latlng, {
+                                                     fillColor: "#000000",
+                                                     color: "green",
+
+                                                     opacity: 0,
+
+                                                     });
+
+                                maker.openPopup();                     
+                                return maker;
+                               },
+                               onEachFeature:popmaps
+                               }).addTo(map).then(
+                                  
+                               );
+
+
+            }
+
+        </script>
+
+<script>
+var i=0;
+var max=0;
+$(document).ready(function() {
+    
+    setTimeout(prepare,1000);
+});
+function prepare(){
+    i=0;
+    max=document.getElementsByClassName('leaflet-marker-icon').length;    
+    setTimeout(click_icon,1000);
+}
+function click_icon(){
+    
+    if(max>i){
+        document.getElementsByClassName('leaflet-marker-icon')[i].click();
+        i=i+1;
+        setTimeout(click_icon,1000);
+    }
+}
+
+</script>
+    </body>
+</html>

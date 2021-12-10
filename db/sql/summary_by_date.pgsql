@@ -1,0 +1,1 @@
+SELECT date, count(id)  from jobs group by date ORDER by date desc ;

@@ -1,0 +1,21 @@
+<%= @return %>
+<p><%= @geo_info %>
+<% @places.each do |place|
+    @geo=Geo.where("place='"+place.place+"'") 
+    %>
+    <div>
+    <h5>
+        <%= place.place %>        
+    </h5>
+    <p>
+    <%= place.count.to_s%>
+    </p>
+    <p>
+  <% if @geo.first then %>
+    <%= @geo.first['latlng'] %>
+  <%end   %>
+    </div> 
+<% end %>
+
+
+

@@ -1,14 +1,21 @@
-Final Project 
+# How to Run
 
-I have extensive experience working as a one-stop creative web solution provider in Canada. I earned a series of professional designations including a Bachelor's Degree in Information Technology and Microsoft Certificates as a Solution Developer, Database Administrator, and Systems Engineer + Internet. I also have experience in database administration, system and internet engineering.
-I intend to apply cutting-edge technology in real life to help businesses increase competitiveness. This year, I was honoured to enroll in CodeCore College's Development Bootcamp to further enhance my skills. The inspiration for my project came from working with CodeCore College as the institution supported my development. I hope my work can help others with achieving their goals and dreams as well. 
+- `bundle install`
+- `yarn`
+- `yarn start`
 
-Auto Onboarding SystemThe 
 
-Auto Onboarding System is an in-depth training system designed to help people become web developers with in-demand skills and huge earning potential. The program will enable candidates to become a specialist without the need for a formalized degree. It will allow them to be creative in their work and have fun while they're at it as they join a global, growing community of digital experts. 
+https://github.com/rails/execjs
 
-Part 1: Job Assistance: This tool extracts data from job search engines like LinkedIn, Indeed, and GlassDoor, providing real-time Job Marketing information. It summarizes the skill requirements, analyses labour market trends, and helps guide users in the right direction to apply to positions on time.
+https://www.rubydoc.info/stdlib/core/IO.popen
 
-Part 2 : ESL Support: Canada is immigrant country and the global market potential is huge. Japan, for example has a population that is five times larger than Canada It is a similar case for Korea, Taiwan, and Latin America. English language skills are becoming a necessity within our education toolkit. Our system provides ESL classes, multilingual support, intelligent AI live chat assistance with bilingual voice support which will allow users to access customer service in language they feel most comfortable.
 
-Part 3: Auto Coding System: Following the industry standard of Git and VSS code, our system enables easy access to the programming framework within each lecture and provides the source code directly within the server. The instructor and student can opt out of typing out each line of code and can instead, follow along with the system instructions. Users will only need to click the "next" button with each step and the system will automatically load the relevant file, type the necessary code, and run the system. Instructors and students can add comments in their own languages and can easily review any step within the program. The system can use also integrate machine learning tools from the internet to expand the capabilities of the database and any relevant analyses required and also support users with debugging or autocoding functionalities.
+# get mouse position
+
+xdotool getmouselocation --shell
+
+
+# list all windows
+```
+wmctrl -l
+```

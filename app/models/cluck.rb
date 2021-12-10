@@ -1,0 +1,2 @@
+class Cluck < ApplicationRecord
+end

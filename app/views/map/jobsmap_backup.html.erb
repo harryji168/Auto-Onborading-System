@@ -1,0 +1,30 @@
+var maptimes =
+{
+"type": "FeatureCollection",
+"features": [
+      <% @places.each do |place|
+        @geo=Geo.where("place='"+place.place+"'") 
+        if @geo.first then %>
+        {
+             "type": "Feature",
+              "properties": {
+                "name": "<%= place.place %><br><%= place.count.to_s%>"
+              },
+
+            <%
+             @geo_array=@geo.first['latlng'].split(',') 
+            %>
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                <%= @geo_array[1] %>,
+                <%= @geo_array[0] %>
+              ]
+            }        
+        },
+      <% 
+      end
+    end %>
+      
+    ]
+}
