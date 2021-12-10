@@ -49,4 +49,4 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 
 ![core_video](https://user-images.githubusercontent.com/21187699/145519953-31adc484-3a9a-4600-9836-3af9d3f3697e.gif)
 
-
+### surprised me was that developing the live streaming was easier than I thought. 
