@@ -12,7 +12,7 @@ Part 2: ESL Support: An Intelligent AI live chat assistant with bilingual voice 
 Part 3: Auto Coding System: This uses an automated system to control industry standard Git and VSS code to write and run code easiler.
 
 
-I made this video to summarize my project, which is also called "I have a dream". It just so happens that tomorrow, Dec 10th is the Human Rights day. "I have a dream" originated from  Human Rights leader Martin Luther King Jr. Let's not forget that a lot of people continue their struggle for rights and economic opportunity. "Speak up, say what you need to say", let us start the video. enjoy it!
+I made this video to summarize my project, which is also called "I have a dream -starting from Code Core College". It just so happens that tomorrow, Dec 10th is the Human Rights day. "I have a dream" originated from  Human Rights leader Martin Luther King Jr. Let's not forget that a lot of people continue their struggle for rights and economic opportunity. "Speak up, say what you need to say", let us start the video. enjoy it!
  
 ![Ihavedream](https://user-images.githubusercontent.com/21187699/145513721-e421e295-bfa0-4e34-a593-bbe6d881f0dc.png) 
 
