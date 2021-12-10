@@ -44,3 +44,9 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ![skill](https://user-images.githubusercontent.com/21187699/145519677-e2d249ed-f47a-44c9-84f7-9e41da1d649e.png)
 
 ![map_summary](https://user-images.githubusercontent.com/21187699/145519073-79823032-0c80-4b36-b213-cbf589ac94ae.png)
+
+### exciting parts were the intro video and music which both align with the core concept.
+
+![core_video](https://user-images.githubusercontent.com/21187699/145519953-31adc484-3a9a-4600-9836-3af9d3f3697e.gif)
+
+
