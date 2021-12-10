@@ -86,3 +86,6 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 
 ### Table
 ![table](https://user-images.githubusercontent.com/21187699/145526242-0c6b6dfc-be97-4703-9e12-a0081f95f08e.gif)
+
+### Chart
+![chart](https://user-images.githubusercontent.com/21187699/145526590-340a5ff8-9f24-438c-8d70-a9e4ad78f5ce.gif)
