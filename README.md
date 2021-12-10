@@ -78,7 +78,8 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ### Dashboard
 ![dashboard](https://user-images.githubusercontent.com/21187699/145524305-4eab9a0d-f429-4592-b886-a53bdf9f7f12.png)
 
-
+### Payment
+![payment](https://user-images.githubusercontent.com/21187699/145524707-efd74bcd-3b54-48af-96da-09b186a901d4.gif)
 
 
 
