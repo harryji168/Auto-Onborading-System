@@ -41,5 +41,6 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 
 ![map](https://user-images.githubusercontent.com/21187699/145518467-5d27e04f-7810-4477-8dd8-7b163a7fb820.gif)
 
+![skill](https://user-images.githubusercontent.com/21187699/145519677-e2d249ed-f47a-44c9-84f7-9e41da1d649e.png)
 
 ![map_summary](https://user-images.githubusercontent.com/21187699/145519073-79823032-0c80-4b36-b213-cbf589ac94ae.png)
