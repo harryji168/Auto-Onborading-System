@@ -72,4 +72,13 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 
 ![auto](https://user-images.githubusercontent.com/21187699/145523810-461d2308-2e08-41d6-ad9f-c667690540cc.gif)
 
+### Front page
+![front_page](https://user-images.githubusercontent.com/21187699/145524303-d6827d9a-335a-498c-8bcc-33ba60b3884d.png)
+
+### Dashboard
+![dashboard](https://user-images.githubusercontent.com/21187699/145524305-4eab9a0d-f429-4592-b886-a53bdf9f7f12.png)
+
+
+
+
 
