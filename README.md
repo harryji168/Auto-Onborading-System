@@ -33,6 +33,7 @@ Part 2 : ESL Support: Canada is an immigrant country and the global market poten
 
 Part 3: Auto Coding System: Following the industry standard of Git and VSS code, our system enables easy access to the programming framework within each lecture and provides the source code directly within the server. The instructor and student can opt out of typing out each line of code and can instead, follow along with the system instructions. Users will only need to click the "next" button with each step and the system will automatically load the relevant file, type the necessary code, and run the system. Instructors and students can add comments in their own languages and can easily review any step within the program. The system can also integrate machine learning tools from the internet to expand the capabilities of the database and any relevant analyses required and also support users with debugging or autocoding functionality.
 
+https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content=DAExymN8Xwo&utm_campaign=designshare&utm_medium=link&utm_source=publishshar
 
 # Features
 
