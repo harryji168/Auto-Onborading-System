@@ -84,3 +84,5 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ### Calendar
 ![calendar](https://user-images.githubusercontent.com/21187699/145525220-53a8a0d6-38d4-4754-ba33-8f61f702b08b.gif)
 
+### Table
+![table](https://user-images.githubusercontent.com/21187699/145526242-0c6b6dfc-be97-4703-9e12-a0081f95f08e.gif)
