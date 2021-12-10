@@ -67,3 +67,9 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ![chat2](https://user-images.githubusercontent.com/21187699/145523405-091ab5a3-dc06-4c2b-8eeb-9277816a59a1.png)
 ![chat3](https://user-images.githubusercontent.com/21187699/145523413-c01f0102-4bc6-4d9d-bdc6-3cd8350371dc.png)
 
+
+### The challenging part was auto control. it is easy in web browser, the cross=platform take time 
+
+![auto](https://user-images.githubusercontent.com/21187699/145523810-461d2308-2e08-41d6-ad9f-c667690540cc.gif)
+
+
