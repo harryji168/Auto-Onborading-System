@@ -1,3 +1,4 @@
+# start presentation 
 
 My name is Harry, when I first started at CodeCore, I saw the “I have a dream” poster at CodeCore that inspired me, so I started thinking about this idea  from early on in the Bootcamp.
 
@@ -14,6 +15,7 @@ Part 3: Auto Coding System: This uses an automated system to control industry st
 I made this video to summarize my project, which is also called "I have a dream". It just so happens that tomorrow, Dec 10th is the Human Rights day. "I have a dream" originated from  Human Rights leader Martin Luther King Jr. Let's not forget that a lot of people continue their struggle for rights and economic opportunity. "Speak up, say what you need to say", let us start the video. enjoy it!
  
  
+# Brochure 
 
 
 I have extensive experience working as a one-stop creative web solution provider in Canada. I earned a series of professional designations including a Bachelor's Degree in Information Technology and Microsoft Certificates as a Solution Developer, Database Administrator, and Systems Engineer + Internet. I also have experience in database administration, system and internet engineering.
