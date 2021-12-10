@@ -1,4 +1,4 @@
-# Start presentation 
+# Presentation Opening remarks
 
 My name is Harry, when I first started at CodeCore, I saw the “I have a dream” poster at CodeCore that inspired me, so I started thinking about this idea  from early on in the Bootcamp.
 
