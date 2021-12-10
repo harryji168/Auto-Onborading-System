@@ -40,3 +40,6 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ### the helpful tool is the job assitance, I could publish api that can assist all job seekers, that made by Rails
 
 ![map](https://user-images.githubusercontent.com/21187699/145518467-5d27e04f-7810-4477-8dd8-7b163a7fb820.gif)
+
+
+![map_summary](https://user-images.githubusercontent.com/21187699/145519073-79823032-0c80-4b36-b213-cbf589ac94ae.png)
