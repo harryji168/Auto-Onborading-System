@@ -79,6 +79,8 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 
 ![front1](https://user-images.githubusercontent.com/21187699/145527320-6a9cd522-4945-41ad-968b-8e6fa62e5349.gif)
 
+![lang](https://user-images.githubusercontent.com/21187699/145527778-bf70e1e0-b18a-42d3-85a0-2f31241baf02.gif)
+
 ### Dashboard
 ![dashboard](https://user-images.githubusercontent.com/21187699/145524305-4eab9a0d-f429-4592-b886-a53bdf9f7f12.png)
 
