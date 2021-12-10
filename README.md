@@ -50,3 +50,11 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ![core_video](https://user-images.githubusercontent.com/21187699/145519953-31adc484-3a9a-4600-9836-3af9d3f3697e.gif)
 
 ### surprised me was that developing the live streaming was easier than I thought. 
+
+![stream](https://user-images.githubusercontent.com/21187699/145520490-77b744ee-0353-4402-b4a3-53eae607b687.gif)
+
+### An added feature was the 3D Model Map which was not planned at beginning. In fact, Google just released the beta version for this tool this year.
+
+![webgl](https://user-images.githubusercontent.com/21187699/145521029-40eca2d3-02d1-49f9-8235-08136981dfd0.gif)
+
+
