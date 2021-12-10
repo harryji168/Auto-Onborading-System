@@ -64,5 +64,6 @@ https://www.canva.com/design/DAExymN8Xwo/uQmi1TzAGva4U5OToreyzg/view?utm_content
 ### The amazing part about AI robots that can speak english with different regional accents, and it tranlate component, and could correct manually  
 
 ![chat](https://user-images.githubusercontent.com/21187699/145523020-848e7d4a-833e-4b30-899f-716445765fa0.png)
-
+![chat2](https://user-images.githubusercontent.com/21187699/145523405-091ab5a3-dc06-4c2b-8eeb-9277816a59a1.png)
+![chat3](https://user-images.githubusercontent.com/21187699/145523413-c01f0102-4bc6-4d9d-bdc6-3cd8350371dc.png)
 
